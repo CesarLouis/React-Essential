@@ -9,7 +9,7 @@ const Header = () => {
   const description = reactDescriptions[genRandomInt(2)];
 
   return (
-    <div>
+    <>
       <header>
         <img src={reactImg} alt="Stylized atom" />
         <h1>React Essentials</h1>
@@ -18,7 +18,7 @@ const Header = () => {
           going to build!
         </p>
       </header>
-    </div>
+    </>
   );
 };
 

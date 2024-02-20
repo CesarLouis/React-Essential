@@ -1,4 +1,4 @@
-const CoreConcepts = ({ image, title, description }) => {
+export default function CoreConcept({ image, title, description }) {
   return (
     <div>
       <li>
@@ -8,6 +8,4 @@ const CoreConcepts = ({ image, title, description }) => {
       </li>
     </div>
   );
-};
-
-export default CoreConcepts;
+}
